@@ -57,9 +57,15 @@ The results of the random tree were as follows:
 
 ## 7. Conclusions and limitations
 
-The aim of this project was to build a machine learning model that can effectively predict the severity of an accident for taxi and ride hailing companies during trip booking. This can allow them to price the trips accordingly, assist them in negotiating insurance prices and plan out better routes.
+The aim of this project was to build a machine learning model that can effectively predict the severity of an accident for taxi and ride hailing companies during trip booking. This can allow them to price the trips accordingly, assist them in negotiating insurance prices and plan out better routes. The data used ranged from 2019 to 2023 and was filtered to include only taxis or private car hires.
 
-Using data from the UK Department of Transport, decision trees and random forest models were considered to be the best in predicting accident severities. The data used ranged from 2019 to 2023 and was filtered to include only taxis or private car hires. Overall, random forests were considered to be most suitable for this scenario
+After feature selection and some further tuning, the decision tree performed slightly better on the training data than with the previous inputs, suggesting model imporovement. The same was not true for the random forest model, but the difference in model scores was too small to make a significant difference.
+
+On the test data, the random forest model performed better than the Decision Tree model with an F-score of 0.533 and a **higher recall** score as well. It also made better predicitions with the majority class of non-severe accidents with 65.3% correct predictions in this class.
+
+However, the decision tree was better at **predicting severe cases** correctly with 61.4% severe cases predicted correctly.
+
+Overall, the random forest got 63% of the predictions correctly while the decision tree got only 52.3% of the predictions correct. This makes the random forest much better at prediction of severity of cases
 
 **Limitations and future improvements**
 
