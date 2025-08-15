@@ -1,6 +1,6 @@
 # Predicting Accident Severity for Taxis in the UK
 
-****Code files uploaded as pdf above***
+***Code files uploaded as pdf above***
 
 ## 1. Project Overview
 
