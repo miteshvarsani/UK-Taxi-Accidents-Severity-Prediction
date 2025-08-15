@@ -1,5 +1,7 @@
 # Predicting Accident Severity for Taxis in the UK
 
+****Code files uploaded as pdf above***
+
 ## 1. Project Overview
 
 This project predicts the severity of taxi accidents in the UK before they occur using historical accident data.
@@ -29,6 +31,7 @@ The project was developed in 2 main phases
 a. EDA and preprocessing ('Predicting Taxi accidents severity in UK - Part 1 - EDA and preprocessing.pdf')
   - Identifying key trends and relationships
   - Outlier detection
+    
 b. Model Development ('Predicting Taxi accidents severity in UK - Part 2 - Model Development.pdf')
   - Class imbalance handling
   - Dummy variable encoding
