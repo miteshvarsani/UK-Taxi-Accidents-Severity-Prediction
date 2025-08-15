@@ -67,7 +67,7 @@ However, the decision tree was better at **predicting severe cases** correctly w
 
 Overall, the random forest got 63% of the predictions correctly while the decision tree got only 52.3% of the predictions correct. This makes the random forest much better at prediction of severity of cases
 
-**Limitations and future improvements**
+### Limitations and future improvements
 
 a. Because of limited computing power, some key variables were left out such as latitude and longitude which would give better location information. As such, the goal of route planning may not be achieved with the models created above but the other goals can be met.
    
